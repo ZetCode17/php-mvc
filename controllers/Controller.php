@@ -34,7 +34,7 @@
             if($this->view){
                 extract($this->data);
                 extract($this->data, EXTR_PREFIX_ALL, "");
-                require "views/$this->view.phtml";
+                require "views/$this->edit.phtml";
             }
         }
         /* redirect($url);
