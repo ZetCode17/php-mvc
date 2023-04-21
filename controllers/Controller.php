@@ -8,7 +8,7 @@
     *   - Protected $head (array), é o cabeçalho de informação que toda pagina vai ter,
     *   -- contem title (titulo da pagina), description (descrição da pagina), seus valores defaut seram vazios.
     */
-    abstract class Controller{
+    abstract class Controller {
         // Variaveis
         protected  $data = array();
         protected  $view = '';
